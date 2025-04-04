@@ -2,22 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    transition: background-color 0.3s, color 0.3s;
-}
-body.dark-mode {
-    background-color: #121212;
-    color: #e0e0e0;
-}
-
-body.dark-mode h1,
-body.dark-mode h2,
-body.dark-mode p {
-    color: #e0e0e0;
 }
 
 .container-fluid {
     display: flex;
 }
+
 .sidebar {
     width: 250px;
     background-color: #333;
@@ -26,31 +16,16 @@ body.dark-mode p {
     padding: 15px;
     box-sizing: border-box;
 }
+
 .main-content {
     flex-grow: 1;
     padding: 20px;
-    display: flex; /* Ajout pour centrer */
-    justify-content: center; /* Centre horizontalement */
-    align-items: center; /* Centre verticalement */
-    flex-direction: column; /* Optionnel si vous avez d'autres éléments */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.dark-mode {
-    background-color: #121212;
-    color: #e0e0e0;
-}
-.dark-mode h1,
-.dark-mode h2,
-.dark-mode p {
-    color: #e0e0e0;
-}
-.dark-mode-content {
-    background-color: #1e1e1e;
-    color: #e0e0e0;
-    border-color: #444;
-}
-.text-center {
-    text-align: center;
-}
+
 .language-buttons {
     margin-bottom: 1rem;
 }
@@ -60,33 +35,6 @@ body.dark-mode p {
 }
 
 #main-title {
-    text-align: center; /* Assure l'alignement du texte */
-    margin: 0; /* Supprime les marges par défaut */
-}
-
-/* Mode sombre pour le contenu Markdown */
-.dark-mode-content {
-    background-color: #1e1e1e; /* Fond sombre */
-    color: #e0e0e0; /* Texte clair */
-    border-color: #444; /* Bordure adaptée */
-}
-
-/* Mode sombre pour les éléments Markdown spécifiques */
-.dark-mode-content h1,
-.dark-mode-content h2,
-.dark-mode-content h3,
-.dark-mode-content p,
-.dark-mode-content li {
-    color: #e0e0e0; /* Texte clair pour les titres, paragraphes et listes */
-}
-
-.dark-mode-content a {
-    color: #4dabf7; /* Couleur des liens en mode sombre */
-}
-
-.dark-mode-content code {
-    background-color: #333; /* Fond pour les blocs de code */
-    color: #f8f8f2; /* Texte clair pour les blocs de code */
-    padding: 2px 4px;
-    border-radius: 4px;
+    text-align: center;
+    margin: 0;
 }
