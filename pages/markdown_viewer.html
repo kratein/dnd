@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afficher un fichier Markdown</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Contenu Markdown</h1>
+        <div id="markdown-content" class="border p-3 rounded bg-light"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+        // Fonction pour charger et afficher un fichier Markdown
+        async function loadMarkdown(filePath) {
+            try {
+                const response = await fetch(filePath);
+                if (!response.ok) {
+                    throw new Error(`Erreur lors du chargement du fichier : ${response.statusText}`);
+                }
+                const markdown = await response.text();
+                const htmlContent = marked(markdown); // Convertit le Markdown en HTML
+                document.getElementById('markdown-content').innerHTML = htmlContent;
+            } catch (error) {
+                console.error(error);
+                document.getElementById('markdown-content').innerHTML = '<p class="text-danger">Impossible de charger le fichier Markdown.</p>';
+            }
+        }
+
+        // Charge un fichier Markdown (par exemple, "example.md")
+        loadMarkdown('../contents/example.md');
+    </script>
+    <li class="nav-item">
+        <a class="nav-link" href="pages/markdown_viewer.html" target="content-frame">Afficher Markdown</a>
+    </li>
+</body>
+</html>

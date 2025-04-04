@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donjon et Dragon 2024</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="col-md-3 col-lg-2 d-md-block bg-dark sidebar">
+            <div class="sidebar-sticky">
+                <!-- Boutons de langue déplacés ici -->
+                <div class="language-buttons mb-3">
+                    <button class="btn btn-primary btn-sm btn-block" onclick="changeLanguage('fr')">Français</button>
+                    <button class="btn btn-primary btn-sm btn-block" onclick="changeLanguage('en')">English</button>
+                </div>
+                <button class="btn btn-secondary btn-block" onclick="toggleDarkMode()">Mode Light/Dark</button>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="pages/markdown_viewer.html" target="content-frame">Jouer au Jeu</a>
+                    </li>
+                    <!-- Add other menu items here -->
+                </ul>
+            </div>
+        </nav>
+        <main role="main" class="main-content col-md-9 ml-sm-auto col-lg-10 px-md-4">
+            <div class="d-flex justify-content-between align-items-center">
+                <h1 class="text-center" id="main-title">Donjon et Dragon 2024</h1>
+            </div>
+            <iframe name="content-frame" style="width: 100%; height: 80vh; border: none;"></iframe>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

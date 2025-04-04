@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+.container-fluid {
+    display: flex;
+}
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    height: 100vh;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex; /* Ajout pour centrer */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    flex-direction: column; /* Optionnel si vous avez d'autres éléments */
+}
+.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode p {
+    color: #e0e0e0;
+}
+.text-center {
+    text-align: center;
+}
+.language-buttons {
+    margin-bottom: 1rem;
+}
+
+.language-buttons button {
+    margin-bottom: 0.5rem;
+}
+
+#main-title {
+    text-align: center; /* Assure l'alignement du texte */
+    margin: 0; /* Supprime les marges par défaut */
+}
