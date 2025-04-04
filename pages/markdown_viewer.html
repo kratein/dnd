@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Afficher un fichier Markdown</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="text-center mb-4">Contenu Markdown</h1>
+        <button class="btn btn-secondary mb-3" onclick="toggleDarkMode()">Mode Light/Dark</button>
         <div id="markdown-content" class="border p-3 rounded bg-light"></div>
     </div>
 
@@ -23,7 +22,7 @@
                     throw new Error(`Erreur lors du chargement du fichier : ${response.statusText}`);
                 }
                 const markdown = await response.text();
-                const htmlContent = marked.parse(markdown); // Utilisez marked.parse() pour les versions récentes
+                const htmlContent = marked.parse(markdown); // Convertit le Markdown en HTML
                 document.getElementById('markdown-content').innerHTML = htmlContent;
             } catch (error) {
                 console.error(error);
@@ -31,11 +30,14 @@
             }
         }
 
+        // Fonction pour basculer entre les modes Light et Dark
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+            document.getElementById('markdown-content').classList.toggle('dark-mode-content');
+        }
+
         // Charge un fichier Markdown (par exemple, "example.md")
         loadMarkdown('https://kratein.github.io/dnd/contents/example.md');
     </script>
-    <li class="nav-item">
-        <a class="nav-link" href="markdown_viewer.html" target="content-frame">Afficher Markdown</a>
-    </li>
 </body>
 </html>
