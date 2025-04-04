@@ -6,9 +6,15 @@ Dans D&D, l'action se déroule dans l'imagination des joueurs, et elle est narr�
 
 ---
 
+```markdown
+<div style="background-color: #ffe4e1; padding: 10px; border-radius: 5px;">
+
 ## Glossaire des Règles
 
 Si vous lisez un terme de règle dans ce livre et souhaitez connaître sa définition, consultez le Glossaire des Règles. Ce chapitre fournit un aperçu de la manière de jouer à D&D et se concentre sur les grandes lignes. De nombreux passages de ce chapitre font référence à ce glossaire.
+
+</div>
+```
 
 ---
 
@@ -43,6 +49,8 @@ Les trois piliers principaux du jeu D&D sont l'interaction sociale, l'exploratio
 3. **Le MJ Narre les Résultats des Actions des Aventuriers.** Parfois, résoudre une tâche est facile. Si un aventurier traverse une pièce et essaie d'ouvrir une porte, le MJ peut dire que la porte s'ouvre et décrire ce qui se trouve au-delà. Mais la porte peut être verrouillée, le sol peut cacher un piège, ou une autre circonstance peut rendre difficile pour un aventurier de terminer une tâche. Dans ces cas, le MJ peut demander au joueur de lancer un dé pour aider à déterminer ce qui se passe. Décrire les résultats conduit souvent à un autre point de décision, ce qui ramène le jeu à l'étape 1.
 
 Ce schéma se maintient pendant chaque session de jeu (chaque fois que vous vous asseyez pour jouer à D&D), que les aventuriers parlent à un noble, explorent une ruine ou combattent un dragon. Dans certaines situations—en particulier les combats—l'action est plus structurée, et chacun agit à tour de rôle.
+
+
 
 ---
 
