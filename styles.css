@@ -37,8 +37,8 @@ body {
 /* Ajuste l'espacement sous le titre */
 #main-title {
     text-align: center;
-    margin: 0;
-    margin-bottom: 20px;
+    margin-top: 20px; /* Ajoute un espace au-dessus du titre */
+    margin-bottom: 20px; /* Ajoute un espace en dessous du titre */
 }
 
 /* Conteneur Markdown */
