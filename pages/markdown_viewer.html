@@ -7,6 +7,23 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
+    <div class="container-fluid">
+        <nav class="col-md-3 col-lg-2 d-md-block bg-dark sidebar">
+            <div class="sidebar-sticky">
+                <!-- Boutons existants -->
+                <div class="language-buttons mb-3">
+                    <button class="btn btn-primary btn-sm btn-block" onclick="changeLanguage('fr')">Français</button>
+                    <button class="btn btn-primary btn-sm btn-block" onclick="changeLanguage('en')">English</button>
+                </div>
+                <button class="btn btn-secondary btn-block" onclick="toggleDarkMode()">Mode Light/Dark</button>
+            </div>
+        </nav>
+        <main role="main" class="main-content col-md-9 ml-sm-auto col-lg-10 px-md-4">
+            <!-- Conteneur pour afficher le contenu Markdown -->
+            <div id="markdown-content" class="border p-3 rounded bg-light"></div>
+        </main>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
         // Fonction pour charger et afficher un fichier Markdown
