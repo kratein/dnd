@@ -30,37 +30,8 @@
             }
         }
 
-        // Rendre la fonction globale
-        window.loadMarkdown = loadMarkdown;
-
-        function changeLanguage(language) {
-            if (typeof language !== 'string') {
-                console.error('Invalid language parameter:', language);
-                return;
-            }
-
-            console.log(`Changement de langue : ${language}`);
-            currentLanguage = language;
-
-            // Recharger le contenu Markdown en fonction de la langue
-            if (typeof loadMarkdown === 'function') {
-                const filePath = language === 'fr'
-                    ? 'https://kratein.github.io/dnd/contents/playing_the_game_fr.md'
-                    : 'https://kratein.github.io/dnd/contents/playing_the_game.md';
-                console.log(`Chargement du fichier : ${filePath}`);
-                loadMarkdown(filePath);
-            } else {
-                console.error('La fonction loadMarkdown n’est pas définie.');
-            }
-        }
-
         // Charger le fichier Markdown par défaut (anglais)
-        loadMarkdown('https://kratein.github.io/dnd/contents/playing_the_game.md');
-    </script>
-    <script src="script.js"></script>
-    <script>
-        // Exemple d'appel à changeLanguage
-        changeLanguage('en');
+        loadMarkdown('https://kratein.github.io/dnd/contents/all_content_fr.md');
     </script>
 </body>
 </html>
