@@ -82,3 +82,57 @@ Choisissez une classe et inscrivez-la sur votre feuille de personnage. La table 
 | **Occultiste** | Savoir occulte      | Charisme                  | Élevée     |
 | **Magicien** | Grimoires             | Intelligence              | Moyenne    |
 
+> **Un Groupe Équilibré :**  
+> Le groupe classique de D&D comprend un Clerc, un Guerrier, un Voleur et un Magicien. Ces quatre classes ont la plus longue histoire dans le jeu, mais plus important encore, elles apportent un mélange équilibré de capacités aux aventures. Vous êtes libre d'utiliser cette configuration de groupe ou de la modifier en suivant ces recommandations :  
+>
+> - **Clerc :** Remplacez par un Barde ou un Druide.  
+> - **Guerrier :** Remplacez par un Barbare, un Moine, un Paladin ou un Rôdeur.  
+> - **Voleur :** Remplacez par un Barde ou un Rôdeur.  
+> - **Magicien :** Remplacez par un Barde, un Ensorceleur ou un Occultiste.
+
+### Écrire Votre Niveau
+
+Inscrivez le niveau de votre personnage sur votre feuille de personnage. En général, un personnage commence au niveau 1 et progresse en niveau en partant à l'aventure et en gagnant des Points d'Expérience (PX).
+
+- **Inscrire vos PX.** Notez également vos Points d'Expérience. Un personnage de niveau 1 commence avec 0 PX.
+- **Commencer à un Niveau Supérieur.** Votre MJ peut vous faire commencer à un niveau supérieur. Si vous commencez au niveau 3 ou plus, inscrivez votre sous-classe choisie sur votre feuille de personnage. Consultez la section “Commencer à des Niveaux Supérieurs” plus loin dans ce chapitre pour plus d'informations.
+
+---
+
+### Noter la Maîtrise des Armures
+
+Votre classe peut vous donner une maîtrise avec certaines catégories d'armures. Notez votre maîtrise des armures sur votre feuille de personnage. La maîtrise d'une catégorie d'armures signifie que vous pouvez porter ces armures efficacement, en bénéficiant des bonus défensifs qu'elles offrent. Les catégories d'armures sont décrites au chapitre 6.
+
+---
+
+### Gardez Cela en Tête
+
+Vous remplirez plus de détails sur votre classe plus tard. Choisir votre classe est la décision la plus importante que vous prenez lors de la création d'un personnage, et elle influence de nombreuses décisions que vous prendrez dans les étapes suivantes. Vous reviendrez à la description de votre classe au chapitre 3 à plusieurs reprises avant d'avoir terminé.
+
+### Étape 2 : Déterminer l'Origine
+
+Déterminer l'origine de votre personnage implique de choisir un historique, une espèce et deux langues.
+
+L'historique d'un personnage représente le lieu et l'occupation qui ont été les plus marquants pour lui. La combinaison de l'historique, de l'espèce et des langues offre un terrain fertile pour votre imagination lorsque vous réfléchissez aux premiers jours de votre personnage.
+
+---
+
+### Choisir un Historique
+
+Choisissez l'historique de votre personnage et inscrivez-le sur votre feuille de personnage. Vous pouvez choisir l'un des historiques détaillés au chapitre 4, et votre MJ peut proposer des historiques supplémentaires comme options.
+
+L'historique que vous choisissez influence l'étape 3, lorsque vous déterminez les scores de caractéristiques de votre personnage. Si vous avez du mal à choisir, la table des Scores de Caractéristiques et Historiques montre quels historiques bénéficient à quelles caractéristiques. Recherchez la caractéristique principale de votre classe dans cette table.
+
+---
+
+### Scores de Caractéristiques et Historiques
+
+| Caractéristique | Historiques                |
+|------------------|----------------------------|
+| **Force**        | Soldat                    |
+| **Dextérité**    | Criminel, Soldat          |
+| **Constitution** | Criminel, Sage, Soldat    |
+| **Intelligence** | Acolyte, Criminel, Sage   |
+| **Sagesse**      | Acolyte, Sage             |
+| **Charisme**     | Acolyte                   |
+
