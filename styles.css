@@ -63,3 +63,30 @@ body.dark-mode p {
     text-align: center; /* Assure l'alignement du texte */
     margin: 0; /* Supprime les marges par défaut */
 }
+
+/* Mode sombre pour le contenu Markdown */
+.dark-mode-content {
+    background-color: #1e1e1e; /* Fond sombre */
+    color: #e0e0e0; /* Texte clair */
+    border-color: #444; /* Bordure adaptée */
+}
+
+/* Mode sombre pour les éléments Markdown spécifiques */
+.dark-mode-content h1,
+.dark-mode-content h2,
+.dark-mode-content h3,
+.dark-mode-content p,
+.dark-mode-content li {
+    color: #e0e0e0; /* Texte clair pour les titres, paragraphes et listes */
+}
+
+.dark-mode-content a {
+    color: #4dabf7; /* Couleur des liens en mode sombre */
+}
+
+.dark-mode-content code {
+    background-color: #333; /* Fond pour les blocs de code */
+    color: #f8f8f2; /* Texte clair pour les blocs de code */
+    padding: 2px 4px;
+    border-radius: 4px;
+}
