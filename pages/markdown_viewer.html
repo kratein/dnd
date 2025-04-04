@@ -23,7 +23,7 @@
                     throw new Error(`Erreur lors du chargement du fichier : ${response.statusText}`);
                 }
                 const markdown = await response.text();
-                const htmlContent = marked(markdown); // Convertit le Markdown en HTML
+                const htmlContent = marked.parse(markdown); // Utilisez marked.parse() pour les versions récentes
                 document.getElementById('markdown-content').innerHTML = htmlContent;
             } catch (error) {
                 console.error(error);
@@ -35,7 +35,7 @@
         loadMarkdown('https://kratein.github.io/dnd/contents/example.md');
     </script>
     <li class="nav-item">
-        <a class="nav-link" href="pages/markdown_viewer.html" target="content-frame">Afficher Markdown</a>
+        <a class="nav-link" href="markdown_viewer.html" target="content-frame">Afficher Markdown</a>
     </li>
 </body>
 </html>
