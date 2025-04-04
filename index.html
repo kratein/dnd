@@ -4,12 +4,46 @@
   <meta charset="UTF-8" />
   <title>PDF Viewer GitHub Pages</title>
   <style>
-    body { font-family: sans-serif; display: flex; gap: 2rem; padding: 2rem; }
-    #file-list { width: 250px; border-right: 1px solid #ccc; padding-right: 1rem; }
-    #file-list ul { list-style: none; padding: 0; }
-    #file-list li { cursor: pointer; padding: 5px; }
-    #file-list li:hover { background-color: #f0f0f0; }
-    #viewer iframe { width: 100%; height: 80vh; border: none; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      height: 100%;
+      font-family: sans-serif;
+      display: flex;
+    }
+
+    #file-list {
+      width: 250px;
+      background: #f7f7f7;
+      border-right: 1px solid #ccc;
+      padding: 1rem;
+      overflow-y: auto;
+    }
+
+    #file-list ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    #file-list li {
+      padding: 8px;
+      cursor: pointer;
+      border-bottom: 1px solid #eee;
+    }
+
+    #file-list li:hover {
+      background-color: #ddd;
+    }
+
+    #viewer {
+      flex-grow: 1;
+      height: 100%;
+    }
+
+    #pdf-frame {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
   </style>
 </head>
 <body>
